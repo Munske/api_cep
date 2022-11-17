@@ -1,0 +1,170 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(45deg, rgb(37, 63, 12), rgb(30, 31, 99));
+}
+
+#cabecalho{
+    width: 100%;
+    height: 8%;
+    background-color: rgba(135, 160, 89, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 4vh;
+}
+
+#principal{
+    width: 100%;
+    height: 72%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    width: 60vw;
+    height: 90%;
+    border-radius: 20px;
+    background-color: rgba(175, 202, 139, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 3.5vh;
+    color: w;
+}
+
+.input-paragrafo{
+    width: 50%;
+    height: 5%;
+    font-size: 2.4vh;
+    margin: 1.8vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(100, 99, 99);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+input{
+    border-radius: 10px;
+    padding-left: 15px;
+    font-size: 2vh;
+}
+
+input:hover{
+    transform: scale(1,1.3);
+}
+
+#info-cep{
+    color: red;
+    font-size: 2vh;
+    margin-top: 5px;
+}
+
+#input-paragrafo-botao{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;;
+}
+
+button{
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    padding: 1.5%;
+    font-size: 3vh;
+}
+
+button:hover{
+    transform: scale(1,1.3);
+}
+
+button:hover{
+    background-color: rgb(66, 61, 61);
+}
+
+#rodape{
+    width: 100%;
+    height: 20%;
+    background-color: rgba(135, 160, 89, 0.2);
+}
+
+#contatos{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vh;
+    flex-direction: column;
+}
+
+a{
+    color: black;
+    margin: 2px;
+}
+
+a:hover{
+    color: seagreen;
+}
+
+#i_facebook {
+    color: blue;
+}
+
+#i_whatsapp {
+    color: #35ad46;
+}
+
+#i_instagram {
+    background-image: linear-gradient(0.15turn, #ffd000 5%, #ff7b91 50%, #be19ff 75%);
+    border-radius: 6px;
+}
+
+#copyright{
+    width: 100%;
+    height: 30%;
+}
+
+h3{
+    text-align: center;
+    font-size: 2.5vh;
+}
+ 
+@media screen and (min-width: 700px) {
+    form{
+        width: 500px;
+    }
+    button{
+        font-size: 3vh;
+    }
+    #contatos{
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    h3{
+        text-align: center;
+        font-size: 3vh;
+    }
+    
+}
